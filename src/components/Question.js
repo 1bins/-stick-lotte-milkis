@@ -9,7 +9,7 @@ const Question = ({ question, answers, idx, page, setPage, totalScore, setTotalS
             setPage(page + 1);
         }else if(page >= 10){
             setTotalScore(totalScore + score);
-            nav("/result");
+            nav("/loading");
         }
     }
 
