@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/-stick-lotte-milkis/static/css/main.f855e6bc.css",
-    "main.js": "/-stick-lotte-milkis/static/js/main.3e9f7261.js",
+    "main.js": "/-stick-lotte-milkis/static/js/main.f846b4dd.js",
     "index.html": "/-stick-lotte-milkis/index.html",
     "main.f855e6bc.css.map": "/-stick-lotte-milkis/static/css/main.f855e6bc.css.map",
-    "main.3e9f7261.js.map": "/-stick-lotte-milkis/static/js/main.3e9f7261.js.map"
+    "main.f846b4dd.js.map": "/-stick-lotte-milkis/static/js/main.f846b4dd.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.3e9f7261.js"
+    "static/js/main.f846b4dd.js"
   ]
 }
