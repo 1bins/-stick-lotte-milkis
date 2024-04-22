@@ -4,7 +4,7 @@ import {questionList} from "../questionList";
 
 import Question from "../components/Question";
 
-const Test = ({ totalScore, setTotalScore }) => {
+const Test = () => {
     const [page, setPage] = useState(1);
 
     return(
@@ -14,7 +14,6 @@ const Test = ({ totalScore, setTotalScore }) => {
                     {...elem}
                     idx={idx}
                     page={page} setPage={setPage}
-                    totalScore={totalScore} setTotalScore={setTotalScore}
                     key={idx}
                 />
             )}

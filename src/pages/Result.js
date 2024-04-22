@@ -1,6 +1,17 @@
+import {useContext, useEffect} from "react";
+import { ScoreStateContext } from '../App';
 import { productList } from "../productList";
 
-const Result = ({ totalScore }) => {
+const Result = () => {
+    const { totalScore, setTotalScore } = useContext(ScoreStateContext)
+
+    useEffect(() => {
+        const scoreData = localStorage.getItem('score');
+        if(scoreData){
+            setTotalScore(scoreData);
+        }
+    }, [setTotalScore]);
+
     const getMilkis = (score) => {
         if(score <= 22) return productList[0]
         else if(score >= 23 && score <= 37) return productList[1]
